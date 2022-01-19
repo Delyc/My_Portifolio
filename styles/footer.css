@@ -1,0 +1,150 @@
+
+
+
+  .footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    margin-top: 3rem;
+    height: 50vh;
+    
+}
+.hiringphone{
+    display: none;
+}
+.usefullinks >h1, .connect >h1, .sub >h1{
+    color: rgba(148, 187, 233, 1);
+    font-weight: bolder;
+    font-size: 25px;
+}
+.sub{
+    margin-right: 3rem;
+    margin-top: -3rem;
+}
+.usefullinks > p{
+    color: white;
+}
+
+.fa-github, .fa-linkedin, .fa-envelope, .fa-phone{
+    color: white;
+    padding: 0.5rem;
+    font-size: 25px;
+    margin-left: -1rem;
+    margin-right: 1rem;
+    
+}
+
+.sub > p{
+    color: white;
+}
+.email{
+    border: 0;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 25px;
+}
+.btn{
+    margin-top: 1rem;
+    height: 6vh;
+    width: 8vw;
+    border-radius: 20px;
+    background-color: rgba(148, 187, 233, 1);
+    border: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+
+    
+}
+
+.linksconnect{
+    width: 100%;
+    margin-left: 7rem;
+    margin-top: -3rem;
+
+}
+.footercontact{
+   margin-top: 1rem;
+   margin-left: 4rem;
+   width: 25vw;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+.fname, .femail{
+    height: 5vh;
+    width: 25vw;
+    float: left;
+
+}
+.contact > h1{
+    color: rgba(148, 187, 233, 1);
+    margin-left: 4rem;
+    font-size: 25px;
+}
+.contact >p{
+    color: white;
+    margin-left: 4rem;
+}
+.send{
+    margin-left: 4rem;
+}
+.contact{
+   margin-right: 1rem;
+   margin-top: -3rem;
+}
+.hiring{
+   background-color: rgba(148, 188, 233, 0);
+   height: 3rem;
+   width: 10vw;
+   border: 0;
+   margin-top: 9rem;
+   outline: 5px solid rgba(148, 187, 233, 1);
+}
+.btnhireme{
+   text-decoration: none;
+   color: white;
+   font-weight: bolder;
+   font-size: 23px;
+}
+
+
+
+@keyframes animate{
+  0% {
+      width: 0;
+  }
+  100%{
+      width: 100%;
+  }
+}
+
+.pythonparent:hover .pythonchild{
+   width: 100%;
+
+
+}
+.pythonparent{
+   width: 20vw;
+}
+.python{
+   color: white;
+
+}
+.pythonchild{
+   height: 1px;
+   width: 0;
+   background-color: white;
+   transition: all 1s linear;
+
+}
+
+.photo{
+  
+   width: 10vw;
+   margin-top: -0.5rem;
+   height: 0.3vh;
+   border: 0;
+   background-color: rgba(148, 187, 233, 1);
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}

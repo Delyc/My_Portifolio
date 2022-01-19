@@ -1,0 +1,70 @@
+
+.tologin{
+    color: rgba(148, 187, 233, 1);
+    
+  
+    text-decoration: none;
+    padding: 0.8rem;
+    float: right;
+    margin-top: 0.5rem;
+    font-size: 20px;
+
+}
+.tologin:hover, .tologin.active{
+    margin-top: 0;
+    height: 5.85vh;
+    color: white;
+    font-weight: bolder;
+  
+    background-color: rgba(148, 187, 233, 1);
+}
+
+.hiremeheader{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.homehireme{
+    float: right;
+    outline: 3px solid rgba(148, 187, 233, 1);
+    background-color: rgba(0, 0, 0, 0.007);
+    margin-top: 0.6rem;
+    
+   
+    height: 2.8rem;
+    margin-right: 1rem;
+   
+ 
+    width: 8%;
+    text-align: center;
+    border: 0;
+  
+
+}
+.verticalline{
+    border-left: 6px solid black;
+    height: 40vh;
+    position:absolute;
+    left: 60%;
+    margin-top: 10rem;
+   
+}
+.homehireme:hover{
+    background-color: black;
+    outline: 3px solid rgba(148, 187, 233, 1);
+    color: white;
+
+}
+.homehireme:hover > a{
+    color: white;
+}
+.Buttons{
+    margin-right: 8rem;
+  
+    height: 10vh;
+    width: 100%;
+    margin-top: 0;
+    /* background-color: rgba(148, 187, 233, 1); */
+}

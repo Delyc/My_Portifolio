@@ -1,0 +1,284 @@
+.imageintro >img{
+    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    margin-left: 10rem;
+    
+  
+}
+.intro{
+    
+    display: flex;
+    flex-direction: row;
+    
+
+   
+   
+    /* background-image: url('../assets/home-bg.jpg');  */
+    /* background-size: cover; */
+    height: 87.5vh;
+}
+.introname > h1{
+    color: rgba(148, 187, 233, 1);
+    font-size: 30px;
+}
+.introname{
+    width: 40%;
+    
+}
+.picandexp{
+    display: flex;
+    flex-direction: column;
+}
+.afterheader{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+}
+.expin{
+    margin-left: 2rem;
+    color: rgba(148, 187, 233, 1);
+    font-size: 25px;
+    font-weight: bolder;
+   
+}
+/* .allskills > p{
+    color: white;
+} */
+/* .allskills{
+    margin-left: 7rem;
+    margin-top: -3rem;
+    
+} */
+.group1, .group2{
+    display: flex;
+    flex-direction: column;
+   
+    width: 50%;
+    margin-left: 2rem;
+}
+.group1 > p, .group2 >p{
+    color: white;
+    padding: 0 !important;
+    margin-top: 0rem;
+    
+}
+.groups{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.discoverr{
+    color: rgba(148, 187, 233, 1);
+    font-size: 120px;
+    font-weight: bolder;
+  
+    margin-bottom: -3.5rem;
+}
+.myart{
+    color: rgba(148, 187, 233, 1);
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 0;
+  
+}
+.spaces{
+    margin-left: 15rem;
+    margin-top: -4rem;
+
+}
+.occupation >h1 {
+    color: white;
+    font-weight: lighter;
+}
+.occupation >p {
+    color: white;
+}
+.hire{
+    height: 2rem;
+    background-color: rgba(148, 188, 233, 0);
+    border: 0;
+    border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  margin-top: 1rem;
+  width: 6vw;
+  border: 3px solid rgba(148, 187, 233, 1);
+  
+    
+
+}
+.hireme{
+    text-decoration: none;
+    color: white;
+   
+}
+.cv{
+    height: 2rem;
+    background-color: rgba(148, 187, 233, 1);
+    border: 0;
+    border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 9vw;
+ 
+
+}
+.download{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+.occupation > p{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    width: 150%;
+   
+}
+.occupation{
+    width: 100%;
+    margin-top: 3rem;
+ 
+}
+
+
+  .graphic{
+    background-color: white;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+
+    border-radius: 10px;
+   margin-left: 1rem;
+    height: 41vh;
+    width: 18vw;
+    
+    margin-top: 5%;
+    /* padding: 1rem; */
+  }
+  .graphic > img{
+    width: 100%;
+    height: 23vh;
+  }
+  .graphic > h3{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: blue;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .graphic > a href{
+    color: blue;
+  }
+  .more{
+     
+    margin-left: 0.5rem;
+    margin-top: -10rem !important;
+    height: 1.8rem;
+    width: 4rem;
+    background-color: rgba(148, 187, 233, 1);
+    border: 0;
+    
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  margin-top: 1rem;
+  }
+  .moremore{
+      color: white;
+      font-weight: bolder;
+      text-decoration: none;
+  }
+  .graphic > p{
+    font-weight: bold;
+    margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 15px;
+  }
+  
+  .services{
+    display: flex;
+    flex-direction: row;
+   
+
+   
+  }
+  
+ 
+.posts{
+    font-size: 20px;
+    width: 40%;
+    height: 10vh;
+
+    margin-left: 6rem;
+}
+.posts > h1{
+    font-size: 20px;
+    width: 100%;
+}
+  .recentposts{
+      margin-top: 5rem;
+      margin-left: -6rem !important;
+      width: 40vw;
+      
+  }
+  .servicesprojects{
+      display: flex;
+      flex-direction: column;
+      width: 50vw;
+      
+      margin-left: 2rem;
+  }
+  .allinbody{
+      display: flex;
+      flex-direction: row;
+    
+  }
+  .content{
+      display: flex;
+      flex-direction: column;}
+      .content > p{
+          margin-top: -0.5rem;
+          margin-left: 1rem;
+          width: 100%;
+      }
+      .content > h3{
+          margin-top: 0.5rem;
+          margin-left: 1rem;
+      }
+.card{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    background-color: rgba(148, 187, 233, 1) ;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-right: 10rem;
+
+}  
+.view{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    background-color: rgba(238, 174, 202, 1);
+    border: 0;
+    height: 4vh;
+    width: 15vw;
+    margin-bottom: 0;
+    margin-top: 6rem;
+    border-radius: 3px;
+    margin-right: 0.1rem;
+
+
+}
+.viewview{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+.card >img{
+    width: 10vw;
+}
+
