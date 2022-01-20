@@ -4,11 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <script src="https://kit.fontawesome.com/18bdfc543c.js" crossorigin="anonymous"></script>
+ 
 </head>
 <body>
-    
-<div class="footer">
+    <div class="Buttons">
+        <button class="homehireme">
+          <a href="#conta" class="hiremeheader">Hire me</a>
+        </button>
+       
+        <a class="tologin" href="pages/allposts.html">Sign up</a>
+        <a class="tologin" href="../pages/login.html">Login</a>
+        <a class="tologin" href="pages/allposts.html">Contact Me</a>
+        <a class="tologin" href="pages/allposts.html">Blog</a>
+        <a class="tologin" href="pages/allposts.html">Services</a>
+        <a class="tologin" href="pages/allposts.html">Projects</a>
+        <a class="tologin" href="pages/allposts.html">Home</a>
+      </div>
+
+       <div class="body">
+      <div id="loggingin">
+        <h1 >Login</h1>
+        <form name="login" id="login" onsubmit="return ValidateLogin()">
+            <div class="userauth">
+            
+            <div class="fa"><i class="fab fa-google"></i><i class="fab fa-linkedin"></i><i class="fab fa-instagram"></i><i class="fab fa-twitter"></i></div>
+        </div>
+        <p class="or">or</p>
+       
+            <div class="left">
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="username">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+            </div>
+        </div>
+            <div class="donthaveanaccount">
+            <button type="submit" class="btn btn-primary">Login</button>
+            <p class="donthaveanaccount">don't have an account? <a href="../pages/signup.html"><span class="signinhere">sign here</span></a></p>
+        </div>
+       
+        </form>
+        </div>
+    </div>
+
+
+         
+<div class="footer flogin">
     <div class="linksconnect">
     <div class="usefullinks">  
       <h1>Useful links</h1>
@@ -66,9 +115,6 @@
   
   </div>
   
-  
-    </body>
-  </html>
   
 </body>
 </html>
